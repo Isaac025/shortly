@@ -158,7 +158,7 @@ const Statistics = () => {
         </div>
 
         {/* CARDS */}
-        <section className="mb-16 md:mb-4">
+        <section className="mb-18 md:mb-12">
           <div className="relative grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 p-5 md:p-10">
             {/* Card 1 */}
             <div className="bg-white rounded-sm shadow-lg h-full p-5 relative">
@@ -172,10 +172,10 @@ const Statistics = () => {
                   className="w-12 h-12"
                 />
               </div>
-              <h3 className="text-gray-800 font-bold text-xl mt-8">
+              <h3 className="text-gray-800 text-center md:text-start font-bold text-xl mt-8">
                 Brand Recognition
               </h3>
-              <p className="text-gray-400 mt-2">
+              <p className="text-gray-400 mt-2 text-center md:text-start">
                 Boost your brand recognition with each click. Generic links
                 don’t mean a thing. Branded links help instil confidence in your
                 content.
@@ -190,17 +190,16 @@ const Statistics = () => {
               <div className="flex items-center justify-center bg-[#393455] p-3 rounded-full absolute -top-10 md:left-2 left-1/2 transform -translate-x-1/2 md:translate-x-0">
                 <img src={icon2} alt="Detailed Records" className="w-12 h-12" />
               </div>
-              <h3 className="text-gray-800 font-bold text-xl mt-8">
+              <h3 className="text-gray-800 font-bold text-xl mt-8 text-center md:text-start">
                 Detailed Records
               </h3>
-              <p className="text-gray-400 mt-2">
+              <p className="text-gray-400 mt-2 text-center md:text-start">
                 Gain insights into who is clicking your links. Knowing when and
                 where people engage with your content helps inform better
                 decisions.
               </p>
             </div>
 
-            {/* Card 3 (No connector line after this) */}
             <div className="bg-white h-full rounded-sm shadow-lg p-5 relative mt-18 md:mt-16">
               <div className="flex items-center justify-center bg-[#393455] p-3 rounded-full absolute -top-10 md:left-2 left-1/2 transform -translate-x-1/2 md:translate-x-0">
                 <img
@@ -209,10 +208,10 @@ const Statistics = () => {
                   className="w-10 h-10"
                 />
               </div>
-              <h3 className="text-gray-800 font-bold text-xl mt-8">
+              <h3 className="text-gray-800 font-bold text-xl mt-8 text-center md:text-start">
                 Fully Customizable
               </h3>
-              <p className="text-gray-400 mt-2">
+              <p className="text-gray-400 mt-2 text-center md:text-start">
                 Improve brand awareness and content discoverability through
                 customizable links, supercharging audience engagement.
               </p>
