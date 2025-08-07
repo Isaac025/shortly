@@ -112,7 +112,9 @@ const Statistics = () => {
               {errors.link.message}
             </span>
           )}
-          {errorMsg && <p className="text-red-500 text-sm mt-2">{errorMsg}</p>}
+          {errorMsg && (
+            <p className="text-red-500 text-sm mt-2 ml-15">{errorMsg}</p>
+          )}
         </div>
 
         {/* LIST OF SHORTENED LINKS */}
@@ -121,16 +123,16 @@ const Statistics = () => {
             {links.map((link, index) => (
               <div
                 key={index}
-                className="bg-white rounded-md p-4 flex flex-col md:flex-row justify-between items-center shadow"
+                className="bg-white rounded-md p-4 flex flex-col md:flex-row md:justify-between items-start md:items-center shadow"
               >
-                <p className="text-gray-800 break-all mb-2 md:mb-0 w-full md:w-auto">
+                <p className="text-gray-800 break-all mb-2 md:mb-0 w-full md:w-auto border-b md:border-b-0 border-gray-400 pb-4 md:pb-0">
                   {link.original}
                 </p>
                 <div className="flex flex-col md:flex-row items-center gap-2">
                   <p className="text-[#40b3a6] break-all">{link.short}</p>
                   <button
                     onClick={() => handleCopy(link.short)}
-                    className={`rounded-md px-4 py-2 text-white transition-colors cursor-pointer duration-300 ${
+                    className={`rounded-md  w-full sm:self-center  md:w-[120px] h-[50px] text-white transition-colors cursor-pointer duration-300 ${
                       copiedUrl === link.short
                         ? "bg-purple-600 hover:bg-purple-700"
                         : "bg-[#40b3a6] hover:bg-[#a1e6de]"
