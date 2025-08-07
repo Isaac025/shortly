@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="bg-gray-900 w-full  p-15 h-full">
       {" "}
-      <div class="flex flex-col gap-[20px] md:flex-row justify-between">
+      <div class="component flex flex-col gap-[20px] md:flex-row justify-between">
         <h1 className="text-gray-300 font-bold text-[34px] text-center ">
           Shortly
         </h1>
@@ -82,46 +82,46 @@ const Footer = () => {
             Contact
           </a>
         </div>
-      </div>{" "}
-      <div>
-        <div
-          className="flex justify-center gap-6 mt-8 text-gray-500  "
-          color="#bfbfbf"
-        >
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:bg-green-500 transition-colors duration-300 rounded-full"
+        <div>
+          <div
+            className="flex justify-center gap-6 mt-8 text-gray-500  "
+            color="#bfbfbf"
           >
-            <img src={facebook} alt="Facebook" className="w-6 h-6" />
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:bg-green-500 transition-colors duration-300 rounded-full"
-          >
-            <img src={twitter} alt="Twitter" className="w-6 h-6" />
-          </a>
-          <a
-            href="https://pinterest.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:bg-green-500 transition-colors duration-300 rounded-full"
-          >
-            <img src={pinterest} alt="Pinterest" className="w-6 h-6" />
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:bg-green-500 transition-colors duration-300 rounded-full"
-          >
-            <img src={instagram} alt="Instagram" className="w-6 h-6" />
-          </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:bg-green-500 transition-colors duration-300 rounded-full"
+            >
+              <img src={facebook} alt="Facebook" className="w-6 h-6" />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:bg-green-500 transition-colors duration-300 rounded-full"
+            >
+              <img src={twitter} alt="Twitter" className="w-6 h-6" />
+            </a>
+            <a
+              href="https://pinterest.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:bg-green-500 transition-colors duration-300 rounded-full"
+            >
+              <img src={pinterest} alt="Pinterest" className="w-6 h-6" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:bg-green-500 transition-colors duration-300 rounded-full"
+            >
+              <img src={instagram} alt="Instagram" className="w-6 h-6" />
+            </a>
+          </div>
         </div>
-      </div>
+      </div>{" "}
     </div>
   );
 };
