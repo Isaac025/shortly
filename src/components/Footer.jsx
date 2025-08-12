@@ -9,11 +9,12 @@ const Footer = () => {
   return (
     <div className="bg-gray-900 w-full  p-15 h-full">
       {" "}
-      <div class="component flex flex-col gap-[20px] md:flex-row justify-between">
+      <div class="component flex flex-col gap-[20px]  md:flex-row justify-between">
         <h1 className="text-gray-300 font-bold text-[34px] text-center ">
           Shortly
         </h1>
-        <div class="flex flex-col gap-[10px] text-gray-500 font-bold items-center ">
+        <div class="flex flex-col gap-[10px] text-gray-500 font-bold items-center md:items-start">
+          {" "}
           <h1 class="text-white font-[500]">Feature </h1>
           <a
             href="#"
@@ -34,7 +35,7 @@ const Footer = () => {
             Analytics
           </a>
         </div>
-        <div class="flex flex-col gap-[10px] text-center text-gray-500 font-bold">
+        <div class="flex flex-col items-center md:items-start gap-[10px]  text-gray-500 font-bold">
           <h1 class="text-white font-[500]">Resources</h1>
           <a
             href="#"
@@ -55,7 +56,7 @@ const Footer = () => {
             Support
           </a>
         </div>
-        <div class="flex flex-col  gap-[10px] text-center text-gray-500 font-bold">
+        <div class="flex flex-col  gap-[10px] items-center md:items-start text-gray-500 font-bold">
           <h1 class="text-white font-[500]">Find out more</h1>
           <a
             href="#"
@@ -84,37 +85,29 @@ const Footer = () => {
         </div>
         <div>
           <div
-            className="flex justify-center gap-6 mt-8 text-gray-500  "
+            className="flex justify-center gap-6 mt-8 md:mt-0 text-gray-500  "
             color="#bfbfbf"
           >
             <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="hover:bg-green-500 transition-colors duration-300 rounded-full"
             >
               <img src={facebook} alt="Facebook" className="w-6 h-6" />
             </a>
             <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="hover:bg-green-500 transition-colors duration-300 rounded-full"
             >
               <img src={twitter} alt="Twitter" className="w-6 h-6" />
             </a>
             <a
-              href="https://pinterest.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="hover:bg-green-500 transition-colors duration-300 rounded-full"
             >
               <img src={pinterest} alt="Pinterest" className="w-6 h-6" />
             </a>
             <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="hover:bg-green-500 transition-colors duration-300 rounded-full"
             >
               <img src={instagram} alt="Instagram" className="w-6 h-6" />

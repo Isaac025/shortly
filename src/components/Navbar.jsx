@@ -24,7 +24,7 @@ const Navbar = () => {
         <button className="text-[#bfbfbf] cursor-pointer hidden md:block">
           Login
         </button>
-        <button className="bg-[#40b3a6] text-white rounded-3xl w-[100px] h-[40px] cursor-pointer hidden md:block hover:bg-[#a1e6de]">
+        <button className="bg-[#40b3a6] text-white rounded-3xl w-[100px] h-[40px]  hidden md:block">
           Sign Up
         </button>
       </div>

@@ -13,7 +13,7 @@ const Hero = () => {
           links are performing.
         </p>
         <div className="flex justify-center md:justify-start">
-          <button className="bg-[#40b3a6] text-white rounded-3xl w-[150px] h-[50px] cursor-pointer  hover:bg-[#a1e6de]">
+          <button className="bg-[#40b3a6] text-white rounded-3xl w-[150px] h-[50px]">
             Get Started
           </button>
         </div>
